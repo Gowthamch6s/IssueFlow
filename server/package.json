@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "test": "vitest run"
+    "test": "node --env-file=.env.test ./node_modules/vitest/vitest.mjs run"
   },
   "keywords": [],
   "author": "",
